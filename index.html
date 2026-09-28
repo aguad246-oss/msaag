@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massage & Relax - استرخِ واستمتع بتجربة مساج فريدة</title>
+    <meta name="description" content="مركز مساج واسترخاء احترافي يقدم خدمات المساج السويدي، الأحجار الساخنة، والعديد من الخدمات المميزة">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-spa"></i>
+                    <span>Massage & Relax</span>
+                </div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="nav-link active">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#services" class="nav-link">الخدمات</a>
+                    <a href="#why-us" class="nav-link">لماذا نحن</a>
+                    <a href="#testimonials" class="nav-link">آراء العملاء</a>
+                    <a href="#contact" class="nav-link">تواصل معنا</a>
+                    <a href="#services" class="nav-link btn-book-nav">احجز الآن</a>
+                </div>
+
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي Hero -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Relax Your Body, Refresh Your Mind</h1>
+            <p class="hero-subtitle fade-in-delay">استرخِ واستمتع بتجربة مساج فريدة تعيد لك النشاط والحيوية في أجواء هادئة ومريحة</p>
+            <a href="#services" class="btn-primary fade-in-delay-2">
+                <span>احجز الآن</span>
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من نحن</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">نقدم لك تجربة استرخاء لا تُنسى</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop" alt="مساج واسترخاء">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-text">
+                    <h3>مركز متخصص في المساج والاسترخاء</h3>
+                    <p>نحن متخصصون في تقديم جلسات المساج والاسترخاء بأجواء هادئة ومريحة، مع الاهتمام براحة العميل وتقديم تجربة مميزة من بداية الحجز حتى نهاية الجلسة.</p>
+                    <p>يعمل لدينا فريق من المعالجين المحترفين والمدربين على أعلى مستوى، نستخدم أفضل الزيوت الطبيعية والتقنيات الحديثة لضمان حصولك على أفضل تجربة استرخاء.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>معالجون معتمدون</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>أجواء هادئة</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>منتجات طبيعية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتنا</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">اختر الخدمة المناسبة لك واستمتع بتجربة استرخاء فريدة</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- الخدمة 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&h=400&fit=crop" alt="المساج السويدي">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">المساج السويدي</h3>
+                        <p class="service-description">مساج كلاسيكي يعتمد على تقنيات الضغط والعجن لتخفيف التوتر وتحسين الدورة الدموية</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>60 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>150 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="المساج السويدي" data-duration="60 دقيقة" data-price="150">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- الخدمة 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&h=400&fit=crop" alt="مساج الاسترخاء">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">مساج الاسترخاء</h3>
+                        <p class="service-description">جلسة هادئة تركز على الاسترخاء العميق وتخفيف التوتر العضلي والنفسي</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>60 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>170 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="مساج الاسترخاء" data-duration="60 دقيقة" data-price="170">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- الخدمة 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=400&fit=crop" alt="مساج الأحجار الساخنة">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">مساج الأحجار الساخنة</h3>
+                        <p class="service-description">استخدام أحجار بركانية ساخنة لتدليك الجسم وتحفيز الطاقة وإزالة التوتر العميق</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>75 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>220 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="مساج الأحجار الساخنة" data-duration="75 دقيقة" data-price="220">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- الخدمة 4 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=600&h=400&fit=crop" alt="مساج الأنسجة العميقة">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">مساج الأنسجة العميقة</h3>
+                        <p class="service-description">تقنية قوية تستهدف طبقات العضلات العميقة لعلاج الآلام المزمنة والشد العضلي</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>60 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>200 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="مساج الأنسجة العميقة" data-duration="60 دقيقة" data-price="200">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- الخدمة 5 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1598662957563-ee4965d4d72c?w=600&h=400&fit=crop" alt="مساج القدمين">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">مساج القدمين</h3>
+                        <p class="service-description">جلسة مخصصة لتدليك القدمين وتحفيز نقاط الانعكاس لتحسين صحة الجسم بالكامل</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>30 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>90 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="مساج القدمين" data-duration="30 دقيقة" data-price="90">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- الخدمة 6 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop" alt="جلسة سبا واسترخاء">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">جلسة سبا واسترخاء</h3>
+                        <p class="service-description">تجربة متكاملة تجمع بين المساج والزيوت العطرية والموسيقى الهادئة لاسترخاء تام</p>
+                        <div class="service-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>90 دقيقة</span>
+                            </div>
+                            <div class="info-item price">
+                                <i class="fas fa-tag"></i>
+                                <span>280 ريال</span>
+                            </div>
+                        </div>
+                        <button class="btn-book" data-service="جلسة سبا واسترخاء" data-duration="90 دقيقة" data-price="280">
+                            <span>حجز</span>
+                            <i class="fas fa-calendar-check"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم لماذا نحن -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">لماذا نحن؟</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">نقدم لك أفضل تجربة استرخاء ومساج</p>
+            </div>
+
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>معالجون محترفون</h3>
+                    <p>فريق من المعالجين المعتمدين والمدربين على أعلى مستوى</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>أجواء هادئة ومريحة</h3>
+                    <p>بيئة مصممة خصيصاً لتوفير أقصى درجات الراحة والاسترخاء</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>خدمات متنوعة</h3>
+                    <p>مجموعة واسعة من خدمات المساج لتلبية احتياجاتك</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>أسعار واضحة</h3>
+                    <p>شفافية كاملة في الأسعار بدون أي رسوم خفية</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>حجز سريع عبر واتساب</h3>
+                    <p>احجز موعدك بسهولة عبر واتساب في ثوانٍ معدودة</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>تجربة مميزة للعملاء</h3>
+                    <p>نهتم بكل تفصيلة لضمان رضاك التام عن الخدمة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم آراء العملاء -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">آراء عملائنا</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">تجارب حقيقية من عملائنا الكرام</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"تجربة رائعة جداً! المكان هادئ والخدمة احترافية. جلسة المساج السويدي كانت ممتازة وأحسست بفرق كبير بعدها."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>أحمد العتيبي</h4>
+                            <span>عميل دائم</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"أفضل مركز مساج جربته في الرياض! المعالجون محترفون جداً والأجواء مريحة للغاية. أنصح بشدة بجلسة الأحجار الساخنة."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>خالد المطيري</h4>
+                            <span>عميل جديد</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"خدمة ممتازة من البداية للنهاية. الحجز عبر واتساب سهل جداً والموظفين متعاونين. جلسة السبا كانت استثنائية!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>عبدالله السعيد</h4>
+                            <span>عميل دائم</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"كنت أعاني من آلام في الظهر وبعد جلسة مساج الأنسجة العميقة شعرت بتحسن كبير. شكراً لكم على الخدمة المميزة."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>محمد القحطاني</h4>
+                            <span>عميل راضي</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"المكان نظيف جداً والأجواء رائعة. جلسة مساج القدمين كانت مريحة ومنعشة. سأكرر الزيارة بالتأكيد."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>سعود الدوسري</h4>
+                            <span>عميل جديد</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"تجربة لا تُنسى! الاهتمام بالتفاصيل والاحترافية في التعامل يجعلكم الخيار الأول لي دائماً. شكراً لكم."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>فهد الشمري</h4>
+                            <span>عميل مميز</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <div class="title-divider"></div>
+                <p class="section-description">نحن هنا للإجابة على استفساراتك وحجز موعدك</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>واتساب</h3>
+                        <p>0549262772</p>
+                        <a href="#" class="contact-link" id="whatsappContactBtn">تواصل عبر واتساب</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>الهاتف</h3>
+                        <p dir="ltr">0549262772</p>
+                        <a href="tel:0549262772" class="contact-link">اتصل بنا</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>أوقات العمل</h3>
+                        <p>السبت - الخميس</p>
+                        <p>9:00 ص - 11:00 م</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>الموقع</h3>
+                        <p>الرياض، المملكة العربية السعودية</p>
+                        <a href="#" class="contact-link">عرض على الخريطة</a>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <h3>جاهزون لخدمتك</h3>
+                    <p>احجز موعدك الآن واستمتع بتجربة استرخاء فريدة</p>
+                    <a href="#services" class="btn-primary">
+                        <span>احجز الآن</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-spa"></i>
+                    <span>Massage & Relax</span>
+                </div>
+                <p class="footer-text">استرخِ واستمتع بتجربة مساج فريدة تعيد لك النشاط والحيوية</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-snapchat-ghost"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Massage & Relax. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- نافذة الحجز Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-header">
+                <i class="fas fa-calendar-check"></i>
+                <h2>احجز موعدك</h2>
+                <p>املأ البيانات التالية لتأكيد حجزك</p>
+            </div>
+
+            <form class="booking-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="customerName">
+                        <i class="fas fa-user"></i>
+                        الاسم الكامل
+                    </label>
+                    <input type="text" id="customerName" placeholder="أدخل اسمك الكامل" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="customerPhone">
+                        <i class="fas fa-phone"></i>
+                        رقم الجوال
+                    </label>
+                    <input type="tel" id="customerPhone" placeholder="05XXXXXXXX" pattern="[0-9]{10}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="selectedService">
+                        <i class="fas fa-spa"></i>
+                        الخدمة المختارة
+                    </label>
+                    <input type="text" id="selectedService" readonly>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="serviceDuration">
+                            <i class="fas fa-clock"></i>
+                            مدة الجلسة
+                        </label>
+                        <input type="text" id="serviceDuration" readonly>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servicePrice">
+                            <i class="fas fa-tag"></i>
+                            السعر
+                        </label>
+                        <input type="text" id="servicePrice" readonly>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookingDate">
+                            <i class="fas fa-calendar"></i>
+                            التاريخ
+                        </label>
+                        <input type="date" id="bookingDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bookingTime">
+                            <i class="fas fa-clock"></i>
+                            الوقت
+                        </label>
+                        <input type="time" id="bookingTime" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookingNotes">
+                        <i class="fas fa-comment"></i>
+                        ملاحظات إضافية (اختياري)
+                    </label>
+                    <textarea id="bookingNotes" rows="3" placeholder="أي ملاحظات أو طلبات خاصة؟"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>تأكيد الحجز عبر واتساب</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- زر واتساب العائم -->
+    <a href="#" class="whatsapp-float" id="whatsappFloat" title="تواصل معنا عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ربط ملف JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
